@@ -29,6 +29,29 @@ a:hover {
   text-align: center;
 }
 
+.nav-page h2 {
+  font-family: 'Muli', sans-serif;
+  text-align: center;
+  margin-right: 195px;
+  font-size: 40px;
+  padding: 10px;
+  background-color: #eb8c00;
+}
+
+.nav-page a:hover {
+  color: #f3f3f3;
+}
+
+.nav-page #back-arrow {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  bottom: -80px;
+  right: 60%;
+  transform: translateX(50%);
+  opacity: .5;
+}
+
 h1 span {
   color: #eb8c00;
 }
@@ -40,6 +63,18 @@ h1 span {
   text-align: center;
 }
 
+p {
+  font-family: 'Muli', sans-serif;
+  color: #767777;
+  font-size: 20px;
+}
+
+p span {
+  font-family: 'Muli', sans-serif;
+  color: #eb8c00;
+  font-size: 40px;
+}
+
 .project-page h3 {
   font-family: 'Muli', sans-serif;
   color: #767777;
@@ -49,6 +84,16 @@ h1 span {
 
 .project-page span {
   color: #eb8c00;
+}
+
+.project-page #back-arrow {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  bottom: 200px;
+  right: 50%;
+  transform: translateX(50%);
+  opacity: .5;
 }
 
 .about-page h1 {
@@ -75,7 +120,17 @@ h1 span {
   width: 70px;
   height: 70px;
   position: absolute;
-  bottom: 0;
+  bottom: 100px;
+  right: 50%;
+  transform: translateX(50%);
+  opacity: .5;
+}
+
+#back-arrow {
+  width: 50px;
+  height: 50px;
+  position: absolute;
+  bottom: 205px;
   right: 50%;
   transform: translateX(50%);
   opacity: .5;
